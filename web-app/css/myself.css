@@ -1,0 +1,39 @@
+/* CSS Document */
+/* CSS Document */
+/*header*/
+body{ font-family:"微软雅黑";font-size:12px; color:#0D0D0D; background: url("../images/body_bg.jpg");}
+#xNav ul.nav_ul li a{ color:#FFF}
+.user_myself{ position:relative; float:right;cursor:pointer; margin-right:15px;}
+.user_myself .user_header_pic{ height:40px; width:40px; background:url(../images/user_header_pic.jpg) center;border-radius:50%; float:left; margin-right:10px;}
+.user_myself .user_name{ float:left; line-height:45px;}
+.user_myself .zhuxiao{ float:left;}
+.user_myself .user_name label{ cursor:pointer; color:#FFF;}
+.user_myself ul.option{ width:90px;background:#00A0FF;padding:10px 10px;position:absolute; top:50px; display:none; text-align:center;}
+.user_myself ul.option li{ color:#FFF; cursor:pointer;}
+.user_myself ul.option li:hover{ color:#F00;}
+
+.content{ width:920px;margin:0 auto;}
+.header-box{ height:150px;}
+.content .userheaderpic{ height:100px; width:100px; border-radius:50%; border:1px solid #CCC; margin:0 auto; margin-top:20px; overflow:hidden;}
+.content .zh{ height:24px; width:100px;border:1px solid #CCC; margin:0 auto; text-align:center; line-height:24px; margin-top:5px; font-size:14px; background: #f0f0f0;}
+.PersonalCenter{ height:40px; width:920px;text-align:center; font-size:15px; line-height:40px;background:#FFF; margin-top:100px;}
+.main-left{ height:400px; float:left;}
+ul.list-fen{ margin-top:15px; width:300px; }
+.list-fen li{ float:left;background:#FFF; padding:10px 10px; border-right:1px solid #CCC; width:100px; height:60px; text-align:center;  cursor:pointer;}
+.list-fen li i{ display:block; font-style:normal;font-family: Tahoma; font-weight:bold;margin: 2px 0 6px; font-size:14px;}
+.list-fen li span{ font-size:12px; color:#999;}
+.grzl{ clear:both; background:#fff; width:300px;margin-top:15px; font-size:13px; font-family:"微软雅黑";border-radius:4px;}
+.grzl h4{ padding-top:10px; padding-left:15px; padding-bottom:3px;}
+.grzl div{ height:42px; margin:0 20px;border-bottom:#CCC 1px solid; line-height:42px;}
+.grzl div span{ line-height:32px; }
+.userxinxi{ padding-left:15px;display:none;}
+.userxinxi h4{ padding-top:10px;padding-bottom:3px;}
+.userxinxi label{ font-weight:normal; font-size:13px;}
+.userxinxi input{ height:24px; line-height:24px;}
+.userxinxi div{ height:32px; line-height:32px; float:left; margin-bottom:10px; margin-left:55px; }
+.houmian{ padding-left:26px;}
+.xggrzl{ display:none;}
+.xggrzl{ clear:both; background:#fff; width:300px;margin-top:15px; font-size:13px; font-family:"微软雅黑";border-radius:4px;}
+.xggrzl h4{ padding-top:10px; padding-left:15px; padding-bottom:3px;}
+.xggrzl div{ height:42px; margin:0 20px;border-bottom:#CCC 1px solid; line-height:42px;}
+.xggrzl div{ line-height:42px; }

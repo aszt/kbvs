@@ -1,0 +1,89 @@
+/* CSS Document */
+/* CSS Document */
+/* CSS Document */
+body,h1,h2,h3,p,ol,ul,dl,dd{ margin:0;padding:0; font-size:12px}
+body{ min-width:1000px;}
+a{ color:#646464; text-decoration:none;}
+a:hover{ text-decoration:underline;}
+img{ border:none;}
+li{ list-style:none;}
+html{ font-family:"Microsoft Yahei";}
+body{ background:#F6F9FB;}
+.clearfix:after{ content:''; display:block; clear:both;}
+
+header{ width:100%;background:#3084ed; height:68px; }
+header .Registered{padding:10px 0; width:866px; margin:0 auto; height:48px;}
+header .logo{ float:left;height: 48px;margin-right:10px; width: 168px;}
+header .egister a{ float:left; border-left: 1px solid #929292; color:#fff;font-size: 20px;height: 30px;line-height: 30px;padding-left: 25px; margin-top:10px;}
+header .login a{ float:right;font-size: 16px;height: 30px;line-height: 30px; margin-top:10px; color:#FFF;}
+form{ margin-top:70px;}
+form .wrap{ background-color:#FFF; border:1px solid #eef2f4; box-shadow:0 1px 2px #EEE; width:825px; color:#6E6E6E;  margin:0 auto; padding:25px 25px 15px 15px; position:relative;}
+.wrap a,.wrap a:hover{ color:#1A66B3;}
+.wrap input{ outline:medium none;}
+.wrap .pic{ float:left; width:480px; height:384px;}
+.wrap .pic img{ width:480px; height:384px;}
+.infro{ float:right; width:311px;}
+.infro .title{ color:#666; font:14px "Microsoft Yahei"; height:46px;}
+.infro .username,.infro .password,.infro .code{ border:1px solid #E6E6E6; border-radius:2px; width:310px; height:36px;}
+.infro .username{ margin-top:32px; position:relative;}
+.infro .text_del{ background:rgba(0, 0, 0, 0) url("/kbvs/images/icon_20150706.png") no-repeat 0 -230px; display:block; width:10px;  height:11px; left:290px; position:absolute; top:12px;}
+.infro .text_del:hover{ background-position:-31px -230px;}
+.infro .pwdReplace{ color:#B0B0B0; cursor:text; float:left; font-size:13px; height:21px; line-height:21px; margin-top:-28px;}
+.infro .replacetype01{ position:absolute; right:0; top:44px;}
+.infro .code_wrap{ height:38px;}
+.infro .code{ float:left; width:126px;}
+.infro .username span, .infro .password span, .infro .code span{ background:rgba(0, 0, 0, 0) url("/kbvs/images/icon_20150706.png") no-repeat 10px -110px; float:left; width:30px; height:36px; margin-right:10px;}
+infro .username span, .infro .password{ margin-top:40px;}
+.infro .password span{ background-position:10px -150px;}
+.infro .code span{ background-position:10px -189px;}
+.infro .username.error span{ background-position:-14px -110px;}
+.infro .password.error span{ background-position:-14px -150px;}
+.infro .code.error span{ background-position:-16px -189px;}
+.infro .username input,.infro .password input,.infro .code input{ border:none; color:#333; float:left; font-family:"Microsoft Yahei"; height:34px; line-height:34px; padding:0;}
+.infro .username input,.infro .password input{ width:270px;}
+.infro .code input{ float:left; width:86px;}
+.tips{ height:30px; line-height:30px; padding-left:10px;}
+.tips span{ display:none;}
+.tips span.big_tip, .tips span.error_choose{ background:rgba(0, 0, 0, 0) url("/kbvs/images/big_tip_bg.png") no-repeat 0 0; color:#FF8400; margin-left:-10px; padding-left:32px;}
+.tips span.error_choose{ color:#505050; padding-left:10px;}
+.tips span.error_choose b{ background-color:#FFF0CF;}
+.tips span.error_choose input{ margin:0 3px 0 7px; vertical-align:text-bottom;}
+.code_pic{ float:left; width:86px; height:38px; margin:0 15px 0 5px;}
+.code_pic img{ width:86px; height:38px;}
+.code_wrap a{ line-height:38px;}
+.auto_login{ height:27px; line-height:22px; overflow:hidden; margin-top:10px; }
+.auto_login a{ float:right;}
+.auto_login input{ margin-top:-1px; vertical-align:middle;margin-left:40px;}
+.safe{ display:none;}
+.infro{ margin-top:60px;}
+.infro .btn{ background-color:#3084ed; border-radius:5px; color:#FFF; display:inline-block; font:20px "Microsoft Yahei"; width:80%; height:44px; line-height:36px; text-align:center; margin-top:40px; margin-left:30px;}
+.infro .btn:hover{ background:#00F; text-decoration:none;}
+.register{ height:24px; line-height:24px; float:left; margin-top:10px}
+.register .register_btn{ color:#6E6E6E;}
+.register .register_btn:hover{ color:#505050;}
+.register .other{ float:left;}
+
+.infro .username.focus,.infro .password.focus,.infro .code.focus{ border-color:#969696;}
+.infro .username.blur, .infro .password.blur, .infro .code.blur{ border-color:#E6E6E6; color:#a0a0a0;}
+.partner dd a.hover em{ background-position:-33px -340px;}
+#vcodeImgWrap{ outline:medium none;}
+.clear{ clear:both; font-size:0; height:0; line-height:0; overflow:hidden;}
+
+footer{ clear:both; font:12px "宋体",Arial; width:100%; margin:0 auto;}
+.public_footer{ color:#666; width:950px; margin:0 auto; overflow:hidden; padding:32px 5px 0;}
+.public_footer a{ color:#666 !important; font-size:12px; text-decoration:none;}
+.public_footer a:hover{ color:#F60 !important; text-decoration:underline;}
+.public_footer .sep{ display:inline-block; padding:0 18px;}
+.public_footer .footer_copyright{ margin:0 auto; padding-left:168px; width:792px;}
+.public_footer .footer_copyright span{ display:inline; float:left;}
+.public_footer .footer_copyright span{ padding-top:10px; }
+.public_footer .footer_copyright a{ padding-right:4px;}
+.public_footer .footer_icon{ width:300px; height:57px; margin:10px 0 0 335px;}
+.public_footer .validator,.public_footer .credible{ display:inline; float:left; width:135px; height:47px; padding:0 5px;}
+
+
+
+
+
+
+

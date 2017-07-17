@@ -1,0 +1,112 @@
+/* CSS Document */
+body{ font-family:"微软雅黑"}
+.user_myself{ position:relative; float:right;cursor:pointer; margin-right:15px;}
+.user_myself .user_header_pic{ height:40px; width:40px; background:url(../images/user_header_pic.jpg) center;border-radius:50%; float:left; margin-right:10px;}
+.user_myself .user_name{ float:left; line-height:45px;}
+.user_myself .zhuxiao{ float:left;}
+.user_myself .user_name label{ cursor:pointer; color:#FFF;}
+.clear{ clear: both;}
+.content{ background:#F6FAFD; width:100%; height:100%; padding:15px 15px; overflow: hidden;}
+.rightjialeft{ width:100%; margin:0 auto;}
+.left-content{ width:82%; border:1px solid #E7E7E7; background:#fff; position:relative; float:left;}
+.header{ width:100%; height:64px;position:relative;}
+.fileicon{ width:16px; height:16px; display:block; position:absolute; left:20px; top:30px;}
+.folder{ background:url(../images/listIcon_ca26f6a.png) no-repeat scroll 0 -30px;}
+.fileicon-pic{ background:url(../images/listIcon_82b617a.png) no-repeat scroll 0 0;}
+.fileicon-t{ background:url(../images/listIcon_82b617a.png) no-repeat scroll -120px 0;}
+
+.file-name-header{ padding-top:30px;padding-left:45px; }
+.link-time{ margin-top:10px; padding-left:20px;}
+.small{ width:100%; height:40px; float:left; position:relative; margin-top:20px;}
+span.txt{ font-size:12px; color:#7c87a5;line-height:40px; padding-left:20px;}
+.makeup{margin-top:8px;float:right; position:absolute; right:0; top:-10px; padding-right:20px;}
+.makeup a{ float:left;height:29px; width:32px; background: url(../images/list-switch_bdb86de.png); cursor:pointer; }
+.makeup a:hover{ color:#06c;}
+.makeup a.makeup_l{ background-position:0 0;}
+.makeup a.makeup_r{ background-position:right 0;}
+.body-nav{ margin-top:5px;}
+.body-nav .list-col{background: #f7f7f7 none repeat scroll 0 0; font-size:13px;border: 1px solid #d2d2d2;border-radius: 2px; height:42px;color: #888; margin-left:20px; margin-right:20px;}
+.body-nav ul li{ float:left; hight:42px; line-height:42px;padding-left:10px;border-left: 1px solid #fff;
+    border-right: 1px solid #e5e5e5; cursor:pointer;}
+.body-nav ul li:hover{background: #e8f5fd none repeat scroll 0 0;color:#00A0FF;}
+.body-nav ul li.first{ width:60%;}
+.body-nav ul li.second{ width:16%;}
+.body-nav ul li.three{ width:24%;}
+.body-nav{ position:relative;}
+.body-nav .file-name{ margin-left:45px;}
+.body-nav .file-second{ margin-left:10px;}
+.body-nav .file-three{ margin-left:10px;}
+.body-nav .user-file{ height:40px; line-height:40px; margin-left:20px;}
+.body-nav .user-file .col{ float:left; padding-left:12px;background: #fff none repeat scroll 0 0;
+    border-bottom: 1px solid #ebebeb;}
+.body-nav .user-file:hover{background: #e8f5fd none repeat scroll 0 0;}
+.body-nav .user-file .user-filename{ width:60%; position:relative; font-size:12px;overflow:hidden;}
+.body-nav .user-file .user-filesize{ width:16%; font-size:12px;}
+.body-nav .user-file .user-filedate{ width:24%; font-size:12px;}
+.body-nav .fileicon{ width:16px; height:16px; display:block; position:absolute; left:42px; top:10px;}
+.body-nav .folder{ background:url(../images/listIcon_ca26f6a.png) no-repeat scroll 0 -30px;}
+.body-nav .fileicon-pic{ background:url(../images/listIcon_82b617a.png) no-repeat scroll 0 0;}
+.body-nav .fileicon-t{ background:url(../images/listIcon_82b617a.png) no-repeat scroll -120px 0;}
+.anniu-group{ position:absolute; top:25px; right:16px;}
+.g-button {
+	float:right;
+    background: url(../images/btn_2d148f3.png) no-repeat scroll 0 -144px;
+    color: #666;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+    height: 28px;
+    line-height: 28px;
+    margin: 6px 5px;
+    outline: 0 none;
+    padding-left:15px;
+    position: relative;
+    text-decoration:none;
+    vertical-align: top;
+    white-space: nowrap;
+}
+.g-button:hover {
+    background: rgba(0, 0, 0, 0) url(../images/btn_2d148f3.png) no-repeat scroll 0 -180px;
+    color: #666;
+    text-decoration: none;
+}
+
+.g-button-right {
+	border-radius:2px;
+	border-right:1px solid #a7a7a7;
+    cursor: pointer;
+    display: block;
+    height: 28px;
+    line-height: 25px;
+    padding-right: 15px;
+    position: relative;
+    right: -1px;
+    text-align: center;
+}
+.g-button-right:hover {
+    cursor: pointer;
+}
+.g-button .icon {
+    display: inline-block;
+    height: 24px;
+    margin-right: 4px;
+    vertical-align: middle;
+    width: 20px;
+}
+
+.body-nav-r{ display:none; margin-top:5px;}
+.allfile-r{background: #f7f7f7 none repeat scroll 0 0; font-size:13px;border: 1px solid #d2d2d2;border-radius: 2px; height:42px;color: #888; margin-left:20px; margin-right:20px;padding-left:11px; line-height:42px;}
+.file-r{ height:92px; width:90px;float:left; margin-left:20px; margin-top:20px; position:relative; cursor:pointer;}
+.input-r{}
+.file-r:hover .input-r{ display:block;}
+.file-r:hover{ border:2px solid #03C;}
+.file-r-touxiang{ width:128px; height:99px; margin:15px 15px; }
+.file-r-name{ text-align:center; width:90px; height:36px; line-height:36px; overflow:hidden;
+   text-overflow:ellipsis;
+   white-space:nowrap;}
+.file-r-name a{ color:#333; font-size:12px; cursor:pointer;}
+.g-button .em-d{ background:url(../images/x.ico) no-repeat; margin-top:5px;}
+.right-content{ float:left;border:1px solid #E7E7E7; height:100%; background:#F9F9F9; width:18%;}
+.right-content-header{ width:203px; margin:0 auto; padding:10px 0;}
+.right-content .user-header-pic{ height:70px; width:70px; border:1px solid #000; float:left;}
+.right-content .user-header-name{ float:left;font-weight: 600;font-size: 14px;display: block;line-height: 30px; padding:0 20px; margin-top:20px;}

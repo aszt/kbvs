@@ -1,0 +1,223 @@
+/* CSS Document */
+body{ height:100%;width:100%;}
+nav{
+	-moz-user-select: none;
+    display: block;
+    font-size: 18px;
+    height: 48px;
+    left: 0;
+    margin: 0;
+    max-height: 44px;
+    min-width: 1024px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+	}
+.h1p{
+	
+	position:relative;
+	left:-140%;
+	top:0}
+.h2p{
+	
+	position:relative;
+	left:-140%;
+	top:0}
+
+.cent-box{ background:url(../images/4.jpg) no-repeat scroll 0 0; width:100%;}
+.sco{ display:none ; margin-bottom:0;}
+.mainbody{width:450px;position:relative;
+	left:-240%;
+	top:0;
+	display:none;}
+.mainbody .egister_title{ height:68px; width:100%}
+.mainbody .egister_title p.title_style{color:#00A0FF;font-size:16px;padding: 20px;text-align: center; font-family:"微软雅黑";letter-spacing:2px;}
+.mainbody .egister_form{ height:400px; width:100%; margin-top:30px;}
+.mainbody .egister_form .range{ margin-top:30px;}
+.myform input{padding:9px 5px 8px 35px; height:42px;}
+.myform input.user{ background:#FFF url(../images/icon.png) no-repeat 8px 12px; }
+.myform input.pwd{ background:#FFF url(../images/icon.png) no-repeat 8px -48px; }
+.identifying_code{ width:20%;height:42px; border:1px solid #F00; margin-right:95px;}
+.mainbody .egister_form .btn_jx{ background:#00A0FF; color:#FFF; border-radius:4px; border:none;}
+.mainbody .egister_form .btn_jx:hover{ background:#03f;}
+
+
+.page-container {
+    margin: 0 auto 0 auto;
+}
+
+.loginform {
+    position: relative;
+    width: 305px;
+    margin: 15px auto 0 auto;
+    text-align: center;
+}
+
+.loginform input {
+    width: 270px;
+    height: 42px;
+	line-height:42px;
+    margin-top: 25px;
+    padding: 0 15px;
+    background: #2d2d2d; /* browsers that don't support rgba */
+    *background-color:transparent;
+    background: rgba(45,45,45,.15);
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid #3d3d3d; /* browsers that don't support rgba */
+    border: 1px solid rgba(255,255,255,.15);
+    -moz-box-shadow: 0 2px 3px 0 rgba(0,0,0,.1) inset;
+    -webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,.1) inset;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.1) inset;
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0,0,0,.1);
+    -o-transition: all .2s;
+    -moz-transition: all .2s;
+    -webkit-transition: all .2s;
+    -ms-transition: all .2s;
+}
+
+.loginform input:-moz-placeholder { color: #fff; }
+.loginform input:-ms-input-placeholder { color: #fff; }
+.loginform input::-webkit-input-placeholder { color: #fff; }
+
+.loginform input:focus {
+    outline: none;
+    -moz-box-shadow:
+        0 2px 3px 0 rgba(0,0,0,.1) inset,
+        0 2px 7px 0 rgba(0,0,0,.2);
+    -webkit-box-shadow:
+        0 2px 3px 0 rgba(0,0,0,.1) inset,
+        0 2px 7px 0 rgba(0,0,0,.2);
+    box-shadow:
+        0 2px 3px 0 rgba(0,0,0,.1) inset,
+        0 2px 7px 0 rgba(0,0,0,.2);
+}
+
+.loginform button {
+    cursor: pointer;
+    width: 270px;
+    height: 44px;
+    margin-top: 25px;
+    padding: 0;
+    background: #ef4300;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: 0px;
+    -moz-box-shadow:
+        0 15px 30px 0 rgba(255,255,255,.25) inset,
+        0 2px 7px 0 rgba(0,0,0,.2);
+    -webkit-box-shadow:
+        0 15px 30px 0 rgba(255,255,255,.25) inset,
+        0 2px 7px 0 rgba(0,0,0,.2);
+    box-shadow:
+        0 15px 30px 0 rgba(255,255,255,.25) inset,
+        0 2px 7px 0 rgba(0,0,0,.2);
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0,0,0,.1);
+    -o-transition: all .2s;
+    -moz-transition: all .2s;
+    -webkit-transition: all .2s;
+    -ms-transition: all .2s;
+}
+
+.loginform button:hover {
+    -moz-box-shadow:
+        0 15px 30px 0 rgba(255,255,255,.15) inset,
+        0 2px 7px 0 rgba(0,0,0,.2);
+    -webkit-box-shadow:
+        0 15px 30px 0 rgba(255,255,255,.15) inset,
+        0 2px 7px 0 rgba(0,0,0,.2);
+    box-shadow:
+        0 15px 30px 0 rgba(255,255,255,.15) inset,
+        0 2px 7px 0 rgba(0,0,0,.2);
+}
+
+.loginform button:active {
+    -moz-box-shadow:
+        0 15px 30px 0 rgba(255,255,255,.15) inset,
+        0 2px 7px 0 rgba(0,0,0,.2);
+    -webkit-box-shadow:
+        0 15px 30px 0 rgba(255,255,255,.15) inset,
+        0 2px 7px 0 rgba(0,0,0,.2);
+    box-shadow:        
+        0 5px 8px 0 rgba(0,0,0,.1) inset,
+        0 1px 4px 0 rgba(0,0,0,.1);
+
+    border: 0px solid #ef4300;
+}
+
+.alert{
+	width:310px;
+	height:200px;
+	background:#000;
+	position:absolute;
+	top:-40%;
+	left:50%;
+	margin: -101px 0 0 -151px;
+}
+.alert h2{
+	height:40px;
+	padding-left:8px;
+	font-size:14px;
+	background:#FF0543;
+	text-align:left;
+	line-height:40px;
+}
+.alert .alert_con{
+	background:#fff;
+	height:160px;
+}
+.alert .alert_con p{
+	color:#000;
+	line-height:90px;
+}
+.alert .alert_con .btn{
+	padding:3px 10px;
+	color:#fff;
+	cursor:pointer;
+	background:#72D1FF;
+	border:1px solid #72D1FF;
+	border-radius:4px;
+}
+.alert .alert_con .btn:hover{
+	background:#4FB2EF;
+	border:1px solid #4FB2EF;
+	border-radius:4px;
+}
+.zhuce{
+    position:fixed;
+	right:30px;
+	bottom:20px;
+}
+.zhuce a{
+	 font-size:14px;
+	 color:#FFF;
+	 text-decoration:none;
+	 }
+.logo{
+	position:fixed;
+	left:20px;
+	top:20px;
+}
+.logo span{ font-size:15px; font-weight:bold; position:fixed; left:60px; top:27px; font-family:"微软雅黑";}
+.footer_copyright{text-align:center; padding-left:330px; height: 57px;}
+.public_footer{ color:#000; width:1200px; margin:0 auto;}
+.public_footer a{color:#F60 !important; font-size:12px; text-decoration:none;}
+.public_footer a:hover{ color:#F60 !important; text-decoration:underline;}
+.public_footer .sep{ display:inline-block; padding:0 18px;}
+.public_footer .footer_copyright{ margin:0 auto;text-align:center;}
+.public_footer .footer_copyright span{ display:inline; float:left;}
+.public_footer .footer_copyright span{ padding-top:10px; }
+.public_footer .footer_copyright a{ padding-right:4px;}
+.public_footer .footer_icon{ width:300px; height:57px;}
+.public_footer .validator,.public_footer .credible{ display:inline; float:left; width:135px; height:47px; padding:0 5px;}

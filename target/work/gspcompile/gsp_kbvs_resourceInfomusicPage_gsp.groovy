@@ -1,0 +1,173 @@
+import com.panda.kbvs.ResourceInfo
+import org.codehaus.groovy.grails.plugins.metadata.GrailsPlugin
+import org.codehaus.groovy.grails.web.pages.GroovyPage
+import org.codehaus.groovy.grails.web.taglib.*
+import org.codehaus.groovy.grails.web.taglib.exceptions.GrailsTagException
+import org.springframework.web.util.*
+import grails.util.GrailsUtil
+
+class gsp_kbvs_resourceInfomusicPage_gsp extends GroovyPage {
+public String getGroovyPageFileName() { "/WEB-INF/grails-app/views/resourceInfo/musicPage.gsp" }
+public Object run() {
+Writer out = getOut()
+Writer expressionOut = getExpressionOut()
+registerSitemeshPreprocessMode()
+printHtmlPart(0)
+printHtmlPart(1)
+createTagBody(1, {->
+printHtmlPart(2)
+invokeTag('captureMeta','sitemesh',12,['gsp_sm_xmlClosingForEmptyTag':(""),'name':("layout"),'content':("main")],-1)
+printHtmlPart(2)
+createTagBody(2, {->
+createClosureForHtmlPart(3, 3)
+invokeTag('captureTitle','sitemesh',13,[:],3)
+})
+invokeTag('wrapTitleTag','sitemesh',14,[:],2)
+printHtmlPart(4)
+expressionOut.print(resource(dir: 'font-awesome-4.5.0/css',file: 'font-awesome.min.css'))
+printHtmlPart(5)
+expressionOut.print(resource(dir: 'css',file: 'APlayer.min.css'))
+printHtmlPart(6)
+invokeTag('javascript','g',16,['src':("APlayer.min.js")],-1)
+printHtmlPart(7)
+invokeTag('createLink','g',86,['controller':("resourceInfo"),'action':("deletes")],-1)
+printHtmlPart(8)
+invokeTag('createLink','g',124,['controller':("shareInfo"),'action':("shares")],-1)
+printHtmlPart(9)
+invokeTag('createLink','g',213,['controller':("groupInfo"),'action':("myGroup")],-1)
+printHtmlPart(10)
+invokeTag('createLink','g',244,['controller':("shareInfo"),'action':("shareGroup")],-1)
+printHtmlPart(11)
+invokeTag('createLink','g',268,['controller':("resourceInfo"),'action':("deletes")],-1)
+printHtmlPart(12)
+invokeTag('createLink','g',292,['controller':("resourceInfo"),'action':("documentRelation")],-1)
+printHtmlPart(13)
+invokeTag('createLink','g',316,['controller':("resourceInfo"),'action':("download")],-1)
+printHtmlPart(14)
+invokeTag('createLink','g',326,['controller':("folderInfo"),'action':("reName")],-1)
+printHtmlPart(15)
+invokeTag('createLink','g',344,['controller':("resourceInfo"),'action':("singleFileDownload")],-1)
+printHtmlPart(16)
+invokeTag('createLink','g',348,['controller':("resourceInfo"),'action':("moveCommon")],-1)
+printHtmlPart(17)
+})
+invokeTag('captureHead','sitemesh',366,[:],1)
+printHtmlPart(18)
+createTagBody(1, {->
+printHtmlPart(19)
+createTagBody(2, {->
+printHtmlPart(20)
+expressionOut.print(resource(dir: 'images',file: 'LOGOO.png'))
+printHtmlPart(21)
+})
+invokeTag('link','g',383,['action':("nextIndex"),'class':("navbar-brand logo"),'style':("width:160px; margin-top:-15px;")],2)
+printHtmlPart(22)
+createClosureForHtmlPart(23, 2)
+invokeTag('link','g',388,['action':("nextIndex")],2)
+printHtmlPart(24)
+createClosureForHtmlPart(25, 2)
+invokeTag('link','g',389,['controller':("groupInfo"),'action':("index")],2)
+printHtmlPart(26)
+expressionOut.print(resource(dir: '',file: session.imagePath))
+printHtmlPart(27)
+expressionOut.print(session.userName)
+printHtmlPart(28)
+createClosureForHtmlPart(29, 2)
+invokeTag('link','g',400,['controller':("userInfo"),'action':("personal")],2)
+printHtmlPart(30)
+createClosureForHtmlPart(31, 2)
+invokeTag('link','g',402,['controller':("userInfo"),'action':("loginOut")],2)
+printHtmlPart(32)
+createClosureForHtmlPart(33, 2)
+invokeTag('link','g',415,['action':("index"),'style':("text-decoration: none")],2)
+printHtmlPart(34)
+createClosureForHtmlPart(35, 2)
+invokeTag('link','g',416,['action':("categoryPage"),'id':("activeFile"),'style':("text-decoration: none")],2)
+printHtmlPart(34)
+createClosureForHtmlPart(36, 2)
+invokeTag('link','g',417,['action':("categoryPage"),'id':("video"),'style':("text-decoration: none")],2)
+printHtmlPart(34)
+createClosureForHtmlPart(37, 2)
+invokeTag('link','g',418,['action':("categoryPage"),'id':("music"),'style':("text-decoration: none")],2)
+printHtmlPart(34)
+createClosureForHtmlPart(38, 2)
+invokeTag('link','g',419,['action':("categoryPage"),'id':("word"),'style':("text-decoration: none")],2)
+printHtmlPart(34)
+createClosureForHtmlPart(39, 2)
+invokeTag('link','g',420,['action':("categoryPage"),'id':("images"),'style':("text-decoration: none")],2)
+printHtmlPart(34)
+createClosureForHtmlPart(40, 2)
+invokeTag('link','g',421,['action':("categoryPage"),'id':("other"),'style':("text-decoration: none")],2)
+printHtmlPart(34)
+createClosureForHtmlPart(41, 2)
+invokeTag('link','g',422,['controller':("shareInfo"),'action':("index"),'style':("text-decoration: none")],2)
+printHtmlPart(34)
+createClosureForHtmlPart(42, 2)
+invokeTag('link','g',423,['controller':("libraryInfo"),'action':("index"),'style':("text-decoration: none")],2)
+printHtmlPart(43)
+createTagBody(2, {->
+printHtmlPart(44)
+expressionOut.print(search)
+printHtmlPart(45)
+expressionOut.print(search)
+printHtmlPart(46)
+expressionOut.print(fillType)
+printHtmlPart(47)
+})
+invokeTag('form','g',441,['controller':("resourceInfo"),'action':("categorySearch"),'method':("get"),'class':("navbar-form navbar-right hidden-xs sea"),'role':("search")],2)
+printHtmlPart(48)
+loop:{
+int i = 0
+for( resourceInfoInstance in (ResourceInfoList) ) {
+printHtmlPart(49)
+expressionOut.print(resourceInfoInstance.id)
+printHtmlPart(50)
+expressionOut.print(resourceInfoInstance.id)
+printHtmlPart(51)
+expressionOut.print(resourceInfoInstance.id)
+printHtmlPart(52)
+expressionOut.print(raw(resourceInfoInstance.name))
+printHtmlPart(53)
+expressionOut.print(resourceInfoInstance.extName)
+printHtmlPart(54)
+expressionOut.print(resourceInfoInstance.id)
+printHtmlPart(55)
+expressionOut.print(resourceInfoInstance.id)
+printHtmlPart(56)
+expressionOut.print(resourceInfoInstance.id)
+printHtmlPart(57)
+expressionOut.print(raw(resourceInfoInstance.artist))
+printHtmlPart(58)
+expressionOut.print(resourceInfoInstance.duration)
+printHtmlPart(59)
+expressionOut.print(resourceInfoInstance.id)
+printHtmlPart(60)
+i++
+}
+}
+printHtmlPart(61)
+invokeTag('createLink','g',552,['controller':("resourceInfo"),'action':("aShowMusic")],-1)
+printHtmlPart(62)
+expressionOut.print(resource(dir: 'images',file: 'music_94.025465230167px_1191632_easyicon.net.png'))
+printHtmlPart(63)
+invokeTag('createLink','g',702,['controller':("resourceInfo"),'action':("showLink")],-1)
+printHtmlPart(64)
+invokeTag('createLink','g',776,['controller':("resourceInfo"),'action':("showImg")],-1)
+printHtmlPart(65)
+invokeTag('createLink','g',818,['controller':("resourceInfo"),'action':("pagination")],-1)
+printHtmlPart(66)
+})
+invokeTag('captureBody','sitemesh',842,[:],1)
+printHtmlPart(67)
+}
+public static final Map JSP_TAGS = new HashMap()
+protected void init() {
+	this.jspTags = JSP_TAGS
+}
+public static final String CONTENT_TYPE = 'text/html;charset=UTF-8'
+public static final long LAST_MODIFIED = 1471908945700L
+public static final String EXPRESSION_CODEC = 'html'
+public static final String STATIC_CODEC = 'none'
+public static final String OUT_CODEC = 'html'
+public static final String TAGLIB_CODEC = 'none'
+}
